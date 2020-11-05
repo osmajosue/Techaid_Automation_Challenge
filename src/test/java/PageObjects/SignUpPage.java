@@ -131,10 +131,10 @@ public class SignUpPage {
         Thread.sleep(1000);
 
         SignUpPage.skipForNowBtn(driver).click();
-        Thread.sleep(3000);
+        Thread.sleep(2000);
 
         SignUpPage.skipForNowBtn(driver).click();
-        Thread.sleep(3000);
+        Thread.sleep(2000);
 
         SignUpPage.accountBio(driver).sendKeys(Helpers.ACCOUNT_BIO);
         Thread.sleep(500);

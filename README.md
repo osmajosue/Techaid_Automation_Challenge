@@ -36,7 +36,16 @@ In the project are two Utils classes, aimed at helping with data storage and scr
 
 ### TestPlan Class
 In this main test class, all the tests are performed. Assertions are made in some instances of this class.
-This class contains Test methods for the five test scenarios requested.
+This class contains Test methods for the 5 test scenarios requested.
+Test scenarios requested:
+*Create a new twitter account, and validate.
+*Tweet a plain text and validate.
+*Tweet text and an image attached, and validate that an image was tweeted.
+*Tweet text and a video attached, and validate that a video was tweeted. Also, interact with the video (play, pause, mute and unmute)
+*Tweet text and a link attached, and validate that the link was tweeted.
+
+Bonus Test Case:
+*Validate the video interactions.
 
 ### Media Interaction
 There is a Test method that uploads a video and interacts with it.
