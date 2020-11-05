@@ -52,3 +52,7 @@ There is a Test method that uploads a video and interacts with it.
 
 ### Time Considerations
 Inside all the methods called by the test methods, there is waiting time period to emulate how a real user would interact with the application.
+
+
+### Other Considerations
+Since twitter has an anti-bot mechanism, after successfully creating 3-4 accounts, you will need to restart your router in order to have a new IP.
