@@ -19,7 +19,7 @@ mvn test
 
 ## RUNTIME EXPLANATION
 
-Here is a briefly explanation on how the code works, the outstanding classes and their purpose on the project.
+Here is a briefly explanation on how the code works, the outstanding classes and, their purpose on the project.
 
 ### PageObjects Classes
 In the project are two main page object classes:
