@@ -1,15 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: Tests.TestPlan
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 69.097 s <<< FAILURE! - in Tests.TestPlan
-Tests.TestPlan.tweetVideo  Time elapsed: 2.035 s  <<< ERROR!
-org.openqa.selenium.InvalidArgumentException: 
-invalid argument: File not found : C:\Users\Osmani Diaz\IdeaProjects\Techaid_Automation_ChallengeMedia/Test_video1.mp4
-  (Session info: chrome=86.0.4240.183)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-G3II0LD', ip: '10.0.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\OSMANI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65525}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: c87e8e854fdf74f882a02df0d12b92c2
-	at Tests.TestPlan.tweetVideo(TestPlan.java:43)
-
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 90.787 s - in Tests.TestPlan
