@@ -16,7 +16,7 @@ public class Helpers {
     public static String TEXT_VIDEO = "THIS IS A TEST VIDEO";
     public static String ROOT_DIR = "C:\\Users\\Osmani Diaz\\IdeaProjects\\Techaid_Automation_Challenge"; //This needs to be the project root directory
     public static String IMAGE_SRC = ROOT_DIR + "/Media/Test_image.jpg";
-    public static String VIDEO_SRC = ROOT_DIR + "Media/Test_video1.mp4";
+    public static String VIDEO_SRC = ROOT_DIR + "/Media/Test_video1.mp4";
     public static String LINK_TWEET = ":\r\n https://www.sciencenews.org/";
     public static int NAME_LENGTH = ACCOUNT_NAME.length();
 }
