@@ -1,0 +1,5 @@
+Tests\TestPlan.class
+PageObjects\HomePage.class
+Utils\Utilities.class
+PageObjects\SignUpPage.class
+Utils\Helpers.class
