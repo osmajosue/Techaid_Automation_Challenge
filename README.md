@@ -6,7 +6,7 @@ This is my solution to automate and validate various twitter functionalities. Th
 * Java version 15.0.1 installed ([Download](https://www.java.com/en/download/))
 * Maven version 3.6.3 installed ([Download](https://maven.apache.org/download.cgi)), ([Installation](https://maven.apache.org/install.html), [Configure](https://maven.apache.org/configure.html))
 * Maven compiler needs to be 1.6 or higher (1.8 on the project)
-* Maven and Java environment setup ([Seup](https://www.tutorialspoint.com/maven/maven_environment_setup.htm))
+* Maven and Java environment setup ([Setup](https://www.tutorialspoint.com/maven/maven_environment_setup.htm))
 * IntelliJ IDE (optional) ([Download](https://www.jetbrains.com/idea/download/))
 
 
