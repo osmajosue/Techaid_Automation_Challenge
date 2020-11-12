@@ -9,6 +9,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
 
+
 public class SignUpPage {
     private static WebElement element = null;
 
@@ -78,7 +79,7 @@ public class SignUpPage {
     }
 
     public static WebElement skipForNowBtn2 (WebDriver driver){
-        element = driver.findElement(By.xpath("//*/div[2]/div/div[2]/div[2]/div"));
+        element = driver.findElement(By.xpath("//*/div[2]/div/span/span"));
         return element;
     }
 
@@ -153,8 +154,18 @@ public class SignUpPage {
     }
 
     public static Boolean isAccountCreated(WebDriver driver) throws InterruptedException {
-        return (HomePage.twitterAccountCreated(driver).getAttribute("href").contains(Helpers.ACCOUNT_NAME.toUpperCase().substring(0,Helpers.NAME_LENGTH - 3))
-                || HomePage.twitterAccountCreated(driver).getAttribute("href").contains(Helpers.ACCOUNT_NAME.toLowerCase().substring(0,Helpers.NAME_LENGTH - 3)));
+        String accountCreated = HomePage.twitterAccountCreated(driver).getAttribute("href");
+        String expectedAccount = Helpers.ACCOUNT_NAME;
+        int accountCreatedLength = accountCreated.length();
+        int expectedAccountLength = expectedAccount.length();
+        Boolean isCreated = false;
+
+        for(int count =0; count <= (accountCreatedLength - expectedAccountLength); count++){
+            if (accountCreated.regionMatches(count, expectedAccount,0, expectedAccountLength)){
+                isCreated = true;
+            }
+        }
+        return isCreated;
     }
 
 }
